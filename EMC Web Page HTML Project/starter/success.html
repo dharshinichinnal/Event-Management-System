@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Success</title>
+
+<style>
+
+body{
+
+font-family:Arial;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+height:100vh;
+
+background:#f4f4f4;
+
+}
+
+.box{
+
+background:white;
+
+padding:40px;
+
+border-radius:10px;
+
+box-shadow:0 0 10px gray;
+
+text-align:center;
+
+}
+
+button{
+
+padding:10px 20px;
+
+background:green;
+
+color:white;
+
+border:none;
+
+font-size:18px;
+
+cursor:pointer;
+
+border-radius:5px;
+
+}
+
+button:hover{
+
+background:darkgreen;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="box">
+
+<h1>🎉 Registration Submitted Successfully!</h1>
+
+<p>Thank you for registering.</p>
+
+<button id="homeBtn">Home</button>
+
+</div>
+
+<script>
+
+const homeBtn=document.querySelector("#homeBtn");
+
+homeBtn.addEventListener("click",function(){
+
+window.location.href="index.html";
+
+});
+
+</script>
+
+</body>
+
+</html>
